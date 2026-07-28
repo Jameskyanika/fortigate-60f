@@ -64,3 +64,18 @@ Test primary and backup link behaviour
 Confirm business application access
                 ↓
 Document the completed migration
+## Supporting Validation Evidence
+
+The ISP migration was validated through coordinated testing from multiple network points.
+
+The validation activities included:
+
+- Confirming that the new WAN links presented the expected public addresses
+- Comparing public egress addresses from different test locations
+- Reviewing FortiGate SD-WAN and WAN-interface configuration
+- Testing access to required business applications
+- Confirming that traffic used the intended ISP connection
+- Coordinating follow-up testing with remote technical teams
+- Verifying readiness before final production use
+
+The original communication records are retained privately.
