@@ -64,6 +64,31 @@ Test primary and backup link behaviour
 Confirm business application access
                 ↓
 Document the completed migration
+## SD-WAN Traffic Steering and Validation Evidence
+
+During the Multi-WAN implementation, four ISP connections were incorporated into the FortiGate SD-WAN environment.
+
+The sanitized link structure consisted of:
+
+| Provider | Capacity | Role |
+|---|---:|---|
+| ISP Alpha | 100 Mbps | High-capacity primary connection |
+| ISP Alpha | 25 Mbps | Secondary connection |
+| ISP Beta | 50 Mbps | Existing or backup connection |
+| ISP Beta | 16 Mbps | Legacy backup connection |
+
+The SD-WAN configuration was intended to improve internet availability and direct client traffic through an appropriate healthy connection.
+
+Validation activities included:
+
+- Confirming that all ISP links were represented in the SD-WAN environment
+- Checking public egress addresses from different network endpoints
+- Confirming that different endpoints could use different WAN paths
+- Testing access to a required business application
+- Coordinating validation with remote technical support teams
+- Rechecking application accessibility after WAN changes
+
+The original communication evidence is retained privately. Names, public IP addresses, organizations and application details are excluded from the public portfolio.
 ## Supporting Validation Evidence
 
 The ISP migration was validated through coordinated testing from multiple network points.
