@@ -4,14 +4,15 @@ This repository documents practical enterprise firewall administration performed
 
 The projects demonstrate real-world experience with:
 
-- Multi-WAN configuration
-- Firewall policies
-- NAT
-- VLAN segmentation
-- ISP migration
-- Internet failover
-- Security hardening
-- Enterprise troubleshooting
+## Projects
+
+1. [Multi-WAN ISP Migration and Failover](01-Multi-WAN-ISP-Migration.md)
+2. [Firewall Policy Administration](02-Firewall-Policies.md)
+3. [NAT and Internet Access](03-NAT-and-Internet-Access.md)
+4. [VLAN Segmentation](04-VLAN-Segmentation.md)
+5. [WAN Failover and Link Monitoring](05-Failover-and-Link-Monitoring.md)
+6. [Security Hardening](06-Security-Hardening.md)
+7. [Troubleshooting Case Studies](07-Troubleshooting-Case-Studies.md)
 
 All configurations, screenshots and diagrams have been sanitized to protect production environments.
 
